@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nightfury-crypto/tictactoe-socketio.git/static/css/main.1dfa5b26.css",
+    "main.js": "/nightfury-crypto/tictactoe-socketio.git/static/js/main.4fd496d1.js",
+    "static/media/wonSound.wav": "/nightfury-crypto/tictactoe-socketio.git/static/media/wonSound.3e2b8a36c21e21afa1a5.wav",
+    "static/media/tictactoe.png": "/nightfury-crypto/tictactoe-socketio.git/static/media/tictactoe.16e5157a4acc1f01a874.png",
+    "static/media/Mclick1.mp3": "/nightfury-crypto/tictactoe-socketio.git/static/media/Mclick1.5df7283cc7b67db197f7.mp3",
+    "index.html": "/nightfury-crypto/tictactoe-socketio.git/index.html",
+    "main.1dfa5b26.css.map": "/nightfury-crypto/tictactoe-socketio.git/static/css/main.1dfa5b26.css.map",
+    "main.4fd496d1.js.map": "/nightfury-crypto/tictactoe-socketio.git/static/js/main.4fd496d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dfa5b26.css",
+    "static/js/main.4fd496d1.js"
+  ]
+}
