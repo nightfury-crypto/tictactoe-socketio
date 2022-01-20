@@ -1,0 +1,104 @@
+.start {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 129, 129);
+    position: relative;
+}
+.start img{
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+.start span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.start span button {
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 10px;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid crimson;
+    transition: background-color 0.5s ease;
+    margin-top: 40px;
+}
+
+.start button:hover {
+    background-color: #fff;
+    color: crimson;
+}
+
+.roomChoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roomChoose form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.roomChoose form fieldset {
+    background-color: rgb(255, 112, 112);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.roomChoose form fieldset legend {
+    padding: 10px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.roomChoose form fieldset input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    color: black;
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 0px;
+
+}
+.roomChoose form fieldset input::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  .roomChoose form fieldset input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+  }
+  
+  .roomChoose form fieldset input::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+  }
+
+.start .quit {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    top: 10px;
+    background-color: rgb(240, 36, 77);
+    left: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
